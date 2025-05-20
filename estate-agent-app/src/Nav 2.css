@@ -41,8 +41,3 @@ h1 {
 .navbar-links li a:hover {
     color: var(--primary-color2);
 }
-@media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  }
