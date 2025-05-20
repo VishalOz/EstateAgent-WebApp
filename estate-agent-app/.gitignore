@@ -1,4 +1,5 @@
-# Logs
+# Dependency directories
+node_modules/# Logs
 logs
 *.log
 npm-debug.log*
@@ -24,4 +25,4 @@ dist-ssr/
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw?node_modules/
