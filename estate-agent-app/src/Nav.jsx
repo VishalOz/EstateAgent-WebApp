@@ -8,9 +8,9 @@ function NavBar() {
             <h1>Home Lands</h1>
         </div>
         <ul className="navbar-links">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         </nav>
     );
