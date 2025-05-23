@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './Nav.jsx';
 import Body from './Body.jsx';
 import Slider from './Slider.jsx';
+import Footer from './Footer.jsx';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Body />
         <Slider />
       </div>
+      <Footer/>
+      
     </>
   );
 }

@@ -9,10 +9,10 @@ function Body() {
           Your journey to the perfect property starts here.
           Whether you're buying your first home, upgrading your lifestyle,
           or investing in real estate, we're here to guide you every step of the way.
-          <br /><br />
+          
           Discover listings tailored to your goals, insights from industry experts,
           and a seamless experience designed with you in mind.
-          <br /><br />
+          
           At Home Lands, your future begins with the right foundation.
           Let’s find your place together.
         </p>
