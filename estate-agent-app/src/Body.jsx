@@ -21,13 +21,6 @@ function Body() {
                     <button className="searchBtn">Search</button>
                 </div>
             </div>
-
-            <div className="right-side">
-                <div className="image-container">
-                    
-                </div>
-                
-            </div>
         </div>
 
       
