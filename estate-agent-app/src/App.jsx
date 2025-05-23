@@ -1,15 +1,18 @@
-import './App.css'
-import NavBar from '../src/Nav.jsx'
-import Body from '../src/Body.jsx'
-import Slider from '../src/Slider.jsx'
+import './App.css';
+import NavBar from './Nav.jsx';
+import Body from './Body.jsx';
+import Slider from './Slider.jsx';
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <Body/>
-      <Slider/>
+      <NavBar />
+      <div className="main-layout">
+        <Body />
+        <Slider />
+      </div>
     </>
-  )
+  );
 }
-export default App
+
+export default App;

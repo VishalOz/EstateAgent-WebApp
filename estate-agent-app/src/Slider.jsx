@@ -16,20 +16,17 @@ function Slider() {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); 
-
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="container">
-      <div className="rightSide">
-        <img
-          src={images[currentIndex]}
-          alt={`House ${currentIndex + 1}`}
-          className="slider-image"
+    <div className="slider-container">
+      <img
+        src={images[currentIndex]}
+        alt={`House ${currentIndex + 1}`}
+        className="slider-image"
       />
-    </div>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 40px;
+  }
+  
