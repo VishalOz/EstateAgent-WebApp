@@ -1,6 +1,8 @@
 import './Body.css';
+import { useNavigate } from 'react-router-dom';
 
 function Body() {
+  const navigate = useNavigate();
   return (
     <div className="body">
       <div className="left-side-content">
@@ -16,7 +18,9 @@ function Body() {
           At Home Lands, your future begins with the right foundation.
           Let’s find your place together.
         </p>
-        <button className="searchBtn">Search</button>
+        <button className="searchBtn" 
+        onClick = { () => navigate('/page') }
+        >Search</button>
       </div>
     </div>
   );
