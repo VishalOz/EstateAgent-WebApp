@@ -2,18 +2,24 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>
-        <div className="w-full bg-transparent opacity-90 h-16 flex items-center justify-between px-4 shadow-lg ">
+    <div className="relative z-50">
+      <div className="w-full bg-white bg-opacity-90 h-16 flex items-center justify-between px-4 shadow-lg">
         <nav className="flex items-center space-x-10">
-            <a href='/' className='text-1xl  text-white hover:text-gray-600 ml-30'>Home</a>
-            <a href='/' className='text-1xl  text-white  hover:text-gray-600'>About</a>
-            <a href='/' className='text-1xl  text-white  hover:text-gray-600'>Contact</a>
+          <a href='/' className='text-lg text-black hover:text-yellow-400 transition-colors duration-100 ml-30'>
+            Home
+          </a>
+          <a href='/' className='text-lg text-black hover:text-yellow-400 transition-colors duration-100'>
+            About
+          </a>
+          <a href='/' className='text-lg text-black hover:text-yellow-400 transition-colors duration-100'>
+            Contact
+          </a>
         </nav>
-    </div>
-    <div>
-        <img src="/assets/logo.jpg" alt="logo" className="w-10 h-10 absolute top-4 right-2 rounded-md" />
-        <h3>Home Lands</h3>
-    </div>
+        <div className="flex items-center">
+          <img src="/assets/logo.jpg" alt="logo" className="w-12 h-12 rounded-md" />
+          <h3 className="ml-2 font-bold">Home Lands</h3>
+        </div>
+      </div>
     </div>
   )
 }
