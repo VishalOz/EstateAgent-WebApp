@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Nav from '../components/Nav';
-
 const HomePage = () => {
   const navigate = useNavigate();
 
@@ -11,7 +10,6 @@ const HomePage = () => {
 
   return (
     <div className="relative h-screen w-full">
-      {/* Background Image */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <img 
           src="/assets/house1.jpg" 
@@ -22,7 +20,6 @@ const HomePage = () => {
 
       <Nav />
 
-      {/* Heading */}
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <h1 className="text-white text-4xl md:text-8xl font-bold z-10 px-4 text-center mb-0">
           THIS <span className="inline-block mx-2">HOME.</span> THIS LIFE
