@@ -22,7 +22,6 @@ const Nav = () => {
             className="px-4 py-2 text-white border border-gray-300 rounded-xl focus:outline-none focus:ring-2
              focus:ring-yellow-400 transition-colors duration-200"
           />
-          <img width="20" height="20" src="https://img.icons8.com/android/50/star.png" alt="star--v1"/>
         </div>
         <div className="flex items-center">
           <img src="/assets/logo.jpg" alt="logo" className="w-12 h-12 rounded-md" />

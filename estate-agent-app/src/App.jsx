@@ -19,12 +19,12 @@ const App = () => {
         
         {/* Main Heading */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <h1 className="text-white text-4xl md:text-8xl font-bold z-10 px-4 text-center mb-4">
+          <h1 className="text-white text-4xl md:text-8xl font-bold z-10 px-4 text-center mb-0">
             THIS <span className="inline-block mx-2">HOME.</span> THIS LIFE
           </h1>
           
           {/* Subtitle */}
-          <p className="text-white text-lg md:text-xl tracking-[0.3em] mb-8">
+          <p className="text-white text-md md:text-xl tracking-[0.4em] mb-8">
             Discover more than a place...find your future
           </p>
           
