@@ -87,18 +87,48 @@ const Search = () => {
               </div>
 
               {/* min and max prices */}
-              <div className="flex flex-col w-60">
+              <div className="flex flex-col w-45">
                 <label>Min price: </label>
                 <input
                 id="min price"
                 type="range"
-                className=""/>
+                className="ml-5 w-40"/>
               </div>
-              <label>Max price: </label>
+              <label className="ml-6">Max price: </label>
                 <input
                 id="max price"
                 type="range"
-                className=""/>
+                className="w-40"/>
+                <div className="flex gap-5 flex-wrap">
+                {/* Min Bedrooms */}
+                <div className="flex flex-col w-60">
+                  <label htmlFor="min-bedrooms" className="font-bold mb-1 text-gray-700">Min Bedrooms</label>
+                  <input 
+                    id="min-bedrooms"
+                    type="number"
+                    className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  />
+                </div>
+
+                {/* Max Bedrooms */}
+                <div className="flex flex-col w-60">
+                  <label htmlFor="max-bedrooms" className="font-bold mb-1 text-gray-700">Max Bedrooms</label>
+                  <input 
+                    id="max-bedrooms"
+                    type="number"
+                    className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  />
+                </div>
+                <div>
+                  <label className="font-bold block">Postal Code</label>
+                  <input 
+                    type="text"
+                    className="mt-1 ml-5 h-9 border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  />
+                </div>
+              </div>
+
+                
             </div>
 
             {/* Favorites Section */}
