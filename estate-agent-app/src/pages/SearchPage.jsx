@@ -127,6 +127,11 @@ const Search = () => {
                   />
                 </div>
               </div>
+              <div className="w-full flex justify-center mt-4">
+                <button className="w-90  bg-green-500 text-white font-bold px-6 py-2 rounded hover:bg-green-600 transition-colors duration-200">
+                  Submit
+                </button>
+              </div>
 
                 
             </div>
